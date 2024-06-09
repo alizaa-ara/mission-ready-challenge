@@ -1,7 +1,7 @@
 // The Factory Design Pattern allows you to create objects dynamically during runtime based on specific criteria. It encourages loose coupling between objects, which grants your code more flexibility and maintainability.
 
-// Factory function:
-function CarFactory(model, year) {
+// Abstract factory function without a constructor or class:
+const CarFactory = (model, year) => {
   return {
     model: model,
     year: year,
@@ -9,9 +9,9 @@ function CarFactory(model, year) {
       console.log(`Model: ${this.model}, Year: ${this.year}`);
     },
   };
-}
+};
 
-// Create objects: Car objects can be created without explicit class instantiation with the CarFactory function.
+// Create objects: Car objects can be created without explicit class instantiation with the CarFactory function. This is a single point of interaction for clients.
 
 const car1 = CarFactory('Suzuki Swift', 2020);
 const car2 = CarFactory('Toyota Corolla', 2022);

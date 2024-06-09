@@ -1,1 +1,0 @@
-# mission-ready-challenge
