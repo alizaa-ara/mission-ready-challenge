@@ -1,0 +1,14 @@
+{
+  "name": "mission-ready-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mergeSort": "node mergeSort.js",
+    "factoryPattern": "node factoryPattern.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
