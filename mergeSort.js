@@ -12,7 +12,7 @@ const sort = (left, right) => {
       sortedArray.push(right.shift());
     }
   }
-  // Use spread operators to create a new array, combining the three arrays. Left and Right arrays are included because eventually, one of these arrays will not have any items stored inside while the other array has item(s) remaining- this does not meet the while loop condition.
+  // Use spread operators to create a new array, combining the three arrays. Left and right arrays are included because eventually, one of these arrays will not have any items stored inside while the other array has item(s) remaining- this does not meet the while loop condition.
   return [...sortedArray, ...left, ...right];
 };
 
